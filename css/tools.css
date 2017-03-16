@@ -1,0 +1,16 @@
+.clr::after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+img{
+	display: block;
+}
