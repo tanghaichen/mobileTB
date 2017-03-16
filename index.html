@@ -326,6 +326,9 @@
 <!-- 以上为了实现轮播图 -->
 <!-- <script src="js/zepto-master/src/touch.js"></script> -->
 <script>
+    document.getElementsByTagName('body')[0].addEventListener('touchmove', function(e) {
+        e.preventDefault();
+    }, false);
 setInterval(function() {
         $('.banner-wrap>li:nth-child(3)').animate({
             opacity: 0
